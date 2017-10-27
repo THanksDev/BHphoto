@@ -198,6 +198,7 @@ footer {
 	.navbar-brand {
 		margin: 0;
 		padding: 0;
+		text-align: left;
 	}
 
 	.display-1 {
