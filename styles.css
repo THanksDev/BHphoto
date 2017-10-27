@@ -92,7 +92,7 @@ h3 {
 }
 
 .post {
-	border: solid 5px turquoise;
+	border-top: solid 5px turquoise;
 	margin: 10px 0;
 }
 
@@ -171,6 +171,10 @@ footer {
 
 	.pull-right {
 		position: relative;
+	}
+
+	body {
+		width: 100%;
 	}
 
 	.primary,
