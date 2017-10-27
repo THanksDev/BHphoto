@@ -198,6 +198,10 @@ footer {
 	.navbar-brand {
 		margin: 0;
 	}
+
+	.display-1 {
+		font-size: 18px;
+	}
 	
 
 }
