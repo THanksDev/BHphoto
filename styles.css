@@ -190,16 +190,22 @@ footer {
 }
 
 @media (max-width: 410px) {
-
+	
+	.navbar,
 	.pull-right {
-		position: relative;
+		position: center;
+		text-align: center;
+		width: 100%;
+		margin: auto;
 	}
 
-	.navbar-brand {
+/*	.navbar-brand {
+		text-align: center;
+		width: 100%;
 		margin: 0;
 		padding: 0;
 		text-align: left;
-	}
+	}*/
 
 	.display-1 {
 		font-size: 16px;
