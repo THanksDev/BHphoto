@@ -1,0 +1,199 @@
+body {
+	/*background: lightgray;*/
+}
+
+header {
+	height: 150px;
+	background: url(./images/header_img.jpg);
+	background-size: 100%;
+	opacity: .7;
+}
+
+.title {
+	color: turquoise;
+}
+
+.navbar-brand {
+	margin-left: 25px;
+}
+
+.pull-right {
+	right: 25px;
+	position: absolute;
+	text-align: right;
+}
+
+#carouselExampleControls {
+	overflow: hidden;
+}
+
+.slide {
+	position: center;
+	max-height: 500px;
+	max-width: 900px;
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.item img {
+    position: relative;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+.controls {
+	height: 20%;
+}
+
+.about {
+	margin-top: 25px;
+}
+
+.about p {
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.display-2 {
+	font-size: 40px;
+	text-align: center;
+	font-weight: 400
+	
+}
+
+.display-4 {
+	font-size: 20px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 25px;
+}
+
+h3 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.review {
+	text-align: left;
+}
+
+.review-post {
+	margin-top: 25px;
+}
+
+.review-post p {
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.post {
+	border: solid 5px turquoise;
+	margin: 10px 0;
+}
+
+.post h3 {
+	margin-left: 25px;
+}
+
+.pricing {
+	margin-top: 30px;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+}
+
+.primary,
+.extra1 {
+	float: left;
+	width: 50%;
+	padding: 20px;
+}
+
+.secondary,
+.extra2 {
+	float: right;
+	width: 50%;
+	padding: 20px;
+}
+
+.third {
+	padding-top: 20px;
+	border-top: solid 5px turquoise;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.contact {
+	padding: 20px;
+	margin-top: 20px;
+	background: #f7f8f9;
+	border: solid 5px turquoise;
+}
+
+.contact h1 {
+	margin: 0;
+}
+
+.label {
+	margin-top: 10px;
+}
+
+input {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
+
+button {
+	font-weight: bold;
+	background: turquoise;
+	color: white;
+}
+
+
+
+footer {
+	padding: 25px;
+	height: 25px;
+	background: white;
+	text-align: center;
+	font-size: 10px;
+}
+
+@media (max-width: 992px) {
+
+	.pull-right {
+		position: relative;
+	}
+
+	.primary,
+	.secondary,
+	.extra1,
+	.extra2 {
+		float: none;
+		width: 100%;
+		border-top: solid 5px turquoise;
+		padding-top: 20px;
+	}
+
+}
+
+@media (max-width: 410px) {
+
+	.pull-right {
+		position: relative;
+	}
+
+	.navbar-brand {
+		margin: 0;
+	}
+	
+
+}
